@@ -6,4 +6,4 @@ In this project we explore the use of the RELAX method to provide explainability
 
 Furthermore, we explore the use of segmentation based methods such as SINEX and a SINEXC inspired algorithm. 
 
-We test the methods using two different pre-trained models, therefore the repository is split into a folder for each model each containing an `explainer-notebook` that reproduces the results from the report. 
+We test the methods using two different pre-trained models, therefore the repository is split into a folder for each model each containing an `Explainer_notebook` that reproduces the results from the report. 
