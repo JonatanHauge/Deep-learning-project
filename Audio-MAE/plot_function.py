@@ -1,21 +1,9 @@
-import sys
-import torchaudio
-from torchaudio.compliance import kaldi
 import numpy as np
 import torch
 import matplotlib.pyplot as plt
-from PIL import Image
 import tqdm.notebook as tqdm
 import torch.nn as nn
 
-path = "/content/gdrive/MyDrive/Deep learning/AudioMAE-main"
-sys.path.insert(1, path)
-import models_mae
-import librosa
-import pathlib
-import skimage as ski
-import os
-from matplotlib import gridspec
 
 def ALL_plot_AUDIO_MAE(importance_mat, uncertainty_mat, model, x):
     """importance_mat shape: (timesteps, frequency), (1024, 128)"""
